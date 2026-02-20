@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="nn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min Skuleportefølje - 1IMA</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Min Skuleportefølje</h1>
+        <p id="greeting">Velkommen til mine prosjekt og fag!</p>
+        <button id="theme-toggle">Bytt til mørkt tema</button>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#fag">Fag</a></li>
+            <li><a href="#prosjekt">Prosjekt (Spel, Video, Bilete)</a></li>
+            <li><a href="#om-meg">Om meg</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="fag" class="section-container">
+            <h2>Mine Fag</h2>
+            <div class="grid-container">
+                <article class="card">
+                    <h3>Engelsk 2025</h3>
+                    <p>1IMA/ENG1009</p>
+                    <a href="engelsk.html" class="btn">Gå til fag</a>
+                </article>
+
+                <article class="card">
+                    <h3>Yrkesfaglig fordypning</h3>
+                    <p>1IMA/YFF4106</p>
+                    <a href="yff.html" class="btn">Gå til fag</a>
+                </article>
+
+                <article class="card">
+                    <h3>Konseptutv. og programmering</h3>
+                    <p>1IMA/IKM1003</p>
+                    <a href="konseptutvikling.html" class="btn">Gå til fag</a>
+                </article>
+
+                <article class="card">
+                    <h3>Teknologiforståelse</h3>
+                    <p>1IMA/IKM1002</p>
+                    <a href="teknologi.html" class="btn">Gå til fag</a>
+                </article>
+
+                <article class="card">
+                    <h3>Prod. og historiefortelling</h3>
+                    <p>1IMA/IKM1001</p>
+                    <a href="produksjon.html" class="btn">Gå til fag</a>
+                </article>
+
+                <article class="card">
+                    <h3>Kroppsøving</h3>
+                    <p>1IMA/1SRA/KRO1017</p>
+                    <a href="kroppsoving.html" class="btn">Gå til fag</a>
+                </article>
+
+                <article class="card">
+                    <h3>Matematikk 1P-Y IM</h3>
+                    <p>1IMA/MAT1121</p>
+                    <a href="matte.html" class="btn">Gå til fag</a>
+                </article>
+
+                <article class="card">
+                    <h3>Naturfag</h3>
+                    <p>Fellesfag</p>
+                    <a href="naturfag.html" class="btn">Gå til fag</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="prosjekt" class="section-container bg-light">
+            <h2>Utvalde Prosjekt</h2>
+            <div class="grid-container">
+                
+                <article class="card media-card">
+                    <h3>🎮 Spelprogrammering</h3>
+                    <p>Her kjem spel eg har laga i Konseptutvikling og programmering.</p>
+                    <div class="placeholder-box">Spel / Canvas kjem her</div>
+                </article>
+
+                <article class="card media-card">
+                    <h3>🎬 Videoproduksjon</h3>
+                    <p>Videoar frå Prod. og historiefortelling.</p>
+                    <video width="100%" controls>
+                        <source src="din-video.mp4" type="video/mp4">
+                        Din nettlesar støttar ikkje videofilen.
+                    </video>
+                </article>
+
+                <article class="card media-card">
+                    <h3>📸 Biletgalleri</h3>
+                    <p>Bilete, design og grafikk eg har laga.</p>
+                    <div class="placeholder-box">Bilete kjem her</div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Skuleportefølje - 1IMA Stord VGS. Laga for GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
